@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="abstractAuthor" abstract="true"
+      class="basic.ioc.config.inheritance.Author">
+  <property name="name" value="author"/>
+  <property name="age" value="18"/>
+</bean>
+
+<bean id="bookAuthor" parent="abstractAuthor"
+      class="basic.ioc.config.inheritance.BookAuthor">
+  <!-- override - age -->
+  <property name="age" value="20"/>
+  <property name="bookName" value="The Book"/>
+</bean>
+
+</beans>
