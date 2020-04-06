@@ -14,6 +14,7 @@
     <module>spring-core-ioc</module>
     <module>spring-bean-lifecycle</module>
     <module>spring-core-beanpostprocessor</module>
+    <module>spring-core-environment-abstraction</module>
   </modules>
 
   <properties>
