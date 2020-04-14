@@ -9,7 +9,7 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>spring-bean-lifecycle</artifactId>
+  <artifactId>spring-core-beanlifecycle</artifactId>
 
   <dependencies>
     <dependency>

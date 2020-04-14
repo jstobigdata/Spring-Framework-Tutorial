@@ -1,6 +1,5 @@
-package com.jsbd.events.synchronous;
+package com.jsbd.events;
 
-import com.jsbd.events.UserEvent;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Component;
@@ -8,12 +7,15 @@ import org.springframework.stereotype.Component;
 @Component
 public class EventPublisher {
 
-  @Autowired //use setter based injection
+  //TODO - Use setter based injection
+  @Autowired
   private ApplicationEventPublisher applicationEventPublisher;
 
   public void publishEvent(String message, Integer eventId) {
     applicationEventPublisher.publishEvent(
-        new UserEvent(this, message, eventId )
+        new UserEvent(this, message, eventId)
     );
   }
+
+
 }

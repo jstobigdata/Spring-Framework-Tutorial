@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.jstobigdata</groupId>
@@ -12,9 +13,10 @@
   <modules>
     <module>spring-tutorial-bom</module>
     <module>spring-core-ioc</module>
-    <module>spring-bean-lifecycle</module>
+    <module>spring-core-beanlifecycle</module>
     <module>spring-core-beanpostprocessor</module>
     <module>spring-core-environment-abstraction</module>
+    <module>spring-core-events</module>
   </modules>
 
   <properties>
