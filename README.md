@@ -1,4 +1,12 @@
 # Spring Framework 5.x Tutorial - [Jstobigdata.com](https://jstobigdata.com/)
+This tutorial is purely on Spring and its ecosystem without using Spring Boot.
+
+```
+if(you.liked) {
+  GitHub.star();
+  shareWithFriends(this);
+}
+```
 
 ## Spring Core Tutorial
 The following Spring Core Topics are covered.
