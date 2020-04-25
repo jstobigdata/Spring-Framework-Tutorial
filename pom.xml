@@ -17,15 +17,25 @@
     <module>spring-core-beanpostprocessor</module>
     <module>spring-core-environment-abstraction</module>
     <module>spring-core-events</module>
+    <module>spring-mvc-00-getting-started</module>
+    <module>spring-aop-01-@Before</module>
+    <module>spring-aop-02-combine-joinpoints</module>
+    <module>spring-aop-03-@AfterReturning</module>
+    <module>spring-aop-04-@AfterThrowing</module>
+    <module>spring-aop-05-@After</module>
+    <module>spring-aop-06-@Around</module>
+    <module>spring-aop-07-ordering-advice</module>
+    <module>spring-aop-08-advice-parameters</module>
+    <module>spring-aop-09-custom-annotation</module>
+    <module>spring-aop-10-inter-type-declarations</module>
   </modules>
 
   <properties>
     <!-- JDK Version -->
-    <maven.compiler.target>1.8</maven.compiler.target>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <java.version>1.8</java.version>
+    <maven.compiler.target>11</maven.compiler.target>
+    <maven.compiler.source>11</maven.compiler.source>
+    <java.version>11</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
 
 </project>
