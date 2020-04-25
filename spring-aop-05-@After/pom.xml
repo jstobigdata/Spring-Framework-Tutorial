@@ -8,7 +8,7 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
-  <artifactId>spring-aop-05-@After</artifactId>
+  <artifactId>spring-aop-05-After</artifactId>
   <description>Spring AOP - @After advice example</description>
 
   <dependencies>

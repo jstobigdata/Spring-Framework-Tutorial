@@ -3,14 +3,15 @@ package c.jbd.saop.at.aspect;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterThrowing;
 import org.aspectj.lang.annotation.Aspect;
-import org.springframework.stereotype.Service;
+import org.springframework.context.annotation.Configuration;
 
-@Service
+@Configuration
 @Aspect
 public class ExceptionAspect {
 
   /**
-   * 
+   * Match with all dao methods.
+   *
    * @param joinPoint
    * @param exception
    */

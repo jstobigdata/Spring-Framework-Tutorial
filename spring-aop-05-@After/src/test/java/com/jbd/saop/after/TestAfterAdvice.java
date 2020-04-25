@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
 
 @SpringJUnitConfig(ApplicationConfig.class)
-public class TestAfter{
+public class TestAfterAdvice {
 
   @Autowired
   private UserRepository userRepository;
@@ -30,8 +30,5 @@ public class TestAfter{
       userRepository.delete("alexa");
     });
   }
-
-  @Test
-  public void testAfter(){}
   
 }

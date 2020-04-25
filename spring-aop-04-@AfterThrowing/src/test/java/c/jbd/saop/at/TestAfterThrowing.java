@@ -19,13 +19,13 @@ public class TestAfterThrowing {
 
   @Test
   public void testThrows() {
-    //Assert exception
+    //Assert throws RuntimeException
     Assertions.assertThrows(RuntimeException.class, () -> {
       userRepository.add(null);
       userRepository.delete(null);
     });
 
-    //Assert exception
+    //Assert does not throw exception
     Assertions.assertDoesNotThrow(() -> {
       userRepository.delete("alexa");
     });
