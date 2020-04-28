@@ -18,17 +18,18 @@ public class TestAfterAdvice {
   }
 
   @Test
-  public void testThrows() {
+  public void testAfterThrows() {
     //Assert exception
     Assertions.assertThrows(RuntimeException.class, () -> {
       userRepository.add(null);
-      userRepository.delete(null);
     });
+  }
 
-    //Assert exception
+  @Test
+  public void testAfter() {
+    //Assert not exception
     Assertions.assertDoesNotThrow(() -> {
       userRepository.delete("alexa");
     });
   }
-  
 }
