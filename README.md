@@ -27,7 +27,7 @@ The following Spring Core Topics are covered in Jstobigdata.com.
 14. [Profiles in Spring to register beans conditionally](https://jstobigdata.com/spring/profiles-in-spring-to-register-beans-conditionally/)
 15. [Custom Events and Generic Events in Spring](https://jstobigdata.com/spring/custom-events-and-generic-events-in-spring/)
 
-# Spring AOP Tutorial
+## Spring AOP Tutorial
 This is a complete Spring AOP tutorial without using Spring Boot. This is designed to give you a solid foundation of Spring-AOP fundamentals.
 1. Spring AOP introduction - 
 2. The @Before advice in Spring AOP
