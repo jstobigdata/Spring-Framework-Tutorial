@@ -11,7 +11,7 @@
   <version>1.0-SNAPSHOT</version>
 
   <modules>
-    <module>spring-tutorial-bom</module>
+    <module>spring-tutorial-boms</module>
     <module>spring-core-ioc</module>
     <module>spring-core-beanlifecycle</module>
     <module>spring-core-beanpostprocessor</module>
@@ -28,6 +28,7 @@
     <module>spring-aop-08-advice-parameters</module>
     <module>spring-aop-09-custom-annotation</module>
     <module>spring-aop-10-inter-type-declarations</module>
+    <module>spring-core-null-safety</module>
   </modules>
 
   <properties>

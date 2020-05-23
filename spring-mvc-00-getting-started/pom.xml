@@ -42,7 +42,7 @@
     <dependencies>
       <dependency>
         <groupId>com.jstobigdata</groupId>
-        <artifactId>spring-tutorial-bom</artifactId>
+        <artifactId>spring-tutorial-boms</artifactId>
         <version>1.0-SNAPSHOT</version>
         <scope>import</scope>
         <type>pom</type>
