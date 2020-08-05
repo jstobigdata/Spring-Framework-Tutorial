@@ -27,6 +27,7 @@ The following Spring Core Topics are covered in Jstobigdata.com.
 14. [Spring @PropertySource to read property files](https://jstobigdata.com/spring/spring-propertysource-to-read-property-files/)
 15. [Profiles in Spring to register beans conditionally](https://jstobigdata.com/spring/profiles-in-spring-to-register-beans-conditionally/)
 16. [Custom Events and Generic Events in Spring](https://jstobigdata.com/spring/custom-events-and-generic-events-in-spring/)
+17. [Handle Resources in Spring - Resource, ResourceLoader and ResourceLoaderAware interfaces](https://jstobigdata.com/spring/handle-resources-in-spring/)
 
 ## Spring AOP Tutorial
 This is a complete Spring AOP tutorial without using Spring Boot. This is designed to give you a solid foundation of Spring-AOP fundamentals.
