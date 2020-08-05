@@ -29,6 +29,7 @@
     <module>spring-aop-09-custom-annotation</module>
     <module>spring-aop-10-inter-type-declarations</module>
     <module>spring-core-null-safety</module>
+    <module>spring-core-work-with-resources</module>
   </modules>
 
   <properties>
