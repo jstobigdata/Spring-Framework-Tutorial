@@ -1,7 +1,7 @@
 # Spring Framework 5.x Tutorial - [Jstobigdata.com](https://jstobigdata.com/)
 This tutorial is purely on Spring and its ecosystem without using Spring Boot.
 
-```
+```javascript
 if(you.liked) {
   GitHub.star();
   shareWithFriends(this);
@@ -42,5 +42,6 @@ This is a complete Spring AOP tutorial without using Spring Boot. This is design
 8. [Around advice in Spring AOP - @Around](https://jstobigdata.com/spring/around-advice-in-spring-aop-around/)
 9. [Ordering advices in Spring AOP - @Order](https://jstobigdata.com/spring/advice-ordering-using-order-in-spring-aop/)
 
+-----
 ## Spring WebFlux Tutorial - own repo
 [Check the Spring WebFlux repo](https://github.com/jstobigdata/Spring-WebFlux-Tutorial)
